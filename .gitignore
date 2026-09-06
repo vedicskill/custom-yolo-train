@@ -1,0 +1,76 @@
+# ==========================================
+# Python Byte-Compiled Files (Speeds up execution)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Virtual Environments (Local dependencies)
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# Distribution / Packaging (Build files)
+# ==========================================
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Testing and Coverage
+# ==========================================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints
+
+# ==========================================
+# Environment Variables & Secrets (NEVER COMMIT THESE)
+# ==========================================
+.env
+.env.local
+.env.*
+.secrets
+
+# ==========================================
+# Operating System & IDE Files (Optional but Recommended)
+# ==========================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code & PyCharm
+.vscode/
+.idea/
