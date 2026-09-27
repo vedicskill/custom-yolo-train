@@ -1,0 +1,63 @@
+ultralytics.engine.results.Results object with attributes:
+
+boxes: ultralytics.engine.results.Boxes object
+depth: None
+keypoints: None
+masks: None
+names: {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5: 'bus', 6: 'train', 7: 'truck', 8: 'boat', 9: 'traffic light', 10: 'fire hydrant', 11: 'stop sign', 12: 'parking meter', 13: 'bench', 14: 'bird', 15: 'cat', 16: 'dog', 17: 'horse', 18: 'sheep', 19: 'cow', 20: 'elephant', 21: 'bear', 22: 'zebra', 23: 'giraffe', 24: 'backpack', 25: 'umbrella', 26: 'handbag', 27: 'tie', 28: 'suitcase', 29: 'frisbee', 30: 'skis', 31: 'snowboard', 32: 'sports ball', 33: 'kite', 34: 'baseball bat', 35: 'baseball glove', 36: 'skateboard', 37: 'surfboard', 38: 'tennis racket', 39: 'bottle', 40: 'wine glass', 41: 'cup', 42: 'fork', 43: 'knife', 44: 'spoon', 45: 'bowl', 46: 'banana', 47: 'apple', 48: 'sandwich', 49: 'orange', 50: 'broccoli', 51: 'carrot', 52: 'hot dog', 53: 'pizza', 54: 'donut', 55: 'cake', 56: 'chair', 57: 'couch', 58: 'potted plant', 59: 'bed', 60: 'dining table', 61: 'toilet', 62: 'tv', 63: 'laptop', 64: 'mouse', 65: 'remote', 66: 'keyboard', 67: 'cell phone', 68: 'microwave', 69: 'oven', 70: 'toaster', 71: 'sink', 72: 'refrigerator', 73: 'book', 74: 'clock', 75: 'vase', 76: 'scissors', 77: 'teddy bear', 78: 'hair drier', 79: 'toothbrush'}
+obb: None
+orig_img: array([[[  2,   3,   0],
+        [  3,   2,   0],
+        [  8,   5,   0],
+        ...,
+        [ 44, 127,  59],
+        [ 32, 115,  47],
+        [ 64, 147,  78]],
+
+       [[  2,   1,   0],
+        [  2,   2,   0],
+        [  9,   5,   0],
+        ...,
+        [ 45, 125,  60],
+        [ 31, 111,  44],
+        [ 22, 102,  35]],
+
+       [[  5,   2,   0],
+        [  5,   2,   0],
+        [ 13,   7,   2],
+        ...,
+        [ 23,  98,  36],
+        [ 37, 114,  52],
+        [ 47, 125,  61]],
+
+       ...,
+
+       [[117, 119, 113],
+        [108, 110, 104],
+        [116, 120, 115],
+        ...,
+        [168, 166, 166],
+        [166, 161, 162],
+        [179, 174, 175]],
+
+       [[151, 153, 147],
+        [104, 106, 100],
+        [ 84,  88,  82],
+        ...,
+        [169, 167, 167],
+        [162, 157, 158],
+        [157, 152, 153]],
+
+       [[154, 159, 150],
+        [178, 183, 174],
+        [169, 174, 165],
+        ...,
+        [152, 147, 148],
+        [149, 143, 144],
+        [155, 149, 150]]], shape=(857, 1280, 3), dtype=uint8)
+orig_shape: (857, 1280)
+path: './images/image-1.jpg'
+probs: None
+save_dir: 'D:\\vedicskill\\courses\\yolo_upgrade\\Notes\\custom-yolo-train\\2-ultralytics-yolo\\runs\\detect\\predict'
+semantic_mask: None
+speed: {'preprocess': 7.891600005677901, 'inference': 338.91429999493994, 'postprocess': 40.452799992635846}
