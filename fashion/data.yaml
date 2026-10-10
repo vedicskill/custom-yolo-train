@@ -1,0 +1,11 @@
+names:
+  0: Tshirt
+  1: dress
+  2: jacket
+  3: pants
+  4: shirt
+  5: short
+  6: skirt
+  7: sweater
+path: .
+train: train.txt

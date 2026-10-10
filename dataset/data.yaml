@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Tshirt', 'dress', 'jacket', 'pants', 'shirt', 'short', 'skirt', 'sweater']
+
+roboflow:
+  workspace: ramya-devi-gummella
+  project: clothing-olr9p-aaqvt
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ramya-devi-gummella/clothing-olr9p-aaqvt/dataset/dataset
